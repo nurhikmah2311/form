@@ -1,0 +1,94 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Membuat form html</title>
+    </head>
+    <body>
+        <form method=post action="daftar.html">
+            Nama : <input type=text name=nama><br>
+            Progdi : <br>
+            <input type=radio name="progdi" values="SI"
+            checked> Sistem Informasi <br>
+            <input type=radio name="progdi" values="TI"
+            checked> Teknik Informatika <br>
+            Hobi : <br>
+            <input type=checkbox name="baca" value="ya"
+            checked> Membaca <br>
+            <input type=checkbox name="or" value="ya">
+            Olah Raga <br>
+            <input type=checkbox name="musik" value="ya">
+            Dengar Musik <br>
+            Umur :
+            <select name=umur>
+                <option value=20>20
+                <option value=21>21
+                <option value=22>22
+            </select><br>
+            Komentar : <br>
+            <textarea name="komentar" rowa=3 cols=30></textarea><br>
+            <input type=submit value="Kirim data ini!">
+            <input type=reset value="Hapus ini form!">
+        </form>
+    </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Membuat form html</title>
+    </head>
+    <body>
+        <form method=post action="daftar.html">
+            <table>
+                <tr>
+                    <td> Nama </td>
+                    <td> :</td>
+                    <td><input type=text name=nama></td>
+                </tr>
+
+                <tr>
+                    <td> Program Studi </td>
+                    <td> :</td>
+                    <td>
+                        <input type=radio name="progdi" values="SI" checked> Sistem Informasi <br>
+                        <input type=radio name="progdi" values="TI"> Teknik Informatika <br>
+                        <input type=radio name="progdi" values="IK"> Ilmu Komunikasi <br>
+                        <input type=radio name="progdi" values="Par"> Pariwisata <br>
+                    </td>
+
+                    <tr>
+                        <td> Hobi </td>
+                        <td> :</td>
+                        <td><input type=checkbox name="baca" value="ya" checked> Membaca <br>
+                            <input type=checkbox name="or" value="ya"> Olah Raga <br>
+                            <input type=checkbox name="musik" value="ya"> Dengar Musik <br></td>
+                    </tr>
+                </tr>
+
+                <tr>
+                    <td> Umur </td>
+                    <td> :</td>
+                    <td><select name=umur>
+                        <option value=20>20
+                        <option value=21>21
+                        <option value=22>22
+                    </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Komentar </td>
+                    <td> :</td>
+                    <td><textarea name="komentar" rowa=3 cols=30></textarea><br></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><input type=submit value="Kirim data ini!">
+                        <input type=reset value="Hapus ini form!"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
